@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,15 +10,23 @@ background-image: url('../images/mh.jpg');
 background-size: cover;
 background-position:bottom center;
 height:80vh;
+position: relative;
 }
 .hero h1{
-    color: aliceblue;
+    color: rgba(242, 246, 249);
     font-size: 40px;
     font-weight: 700;
-    font-family:cursive;
-    /* letter-spacing:20px ; */
-    text-align: center;
-    padding-top: 5px;
+    font-family: cursive;
+    letter-spacing:5px ;
+    text-align:center;
+    /* padding-top:20%; */   
+    padding-left: 5px;
+}
+#head{
+    border: 4px groove rgb(191, 86, 103);
+    position: absolute;
+    top: 170px;
+    left:250px;
 }
 .article h2{
     font-family: 'Lemon', serif;
