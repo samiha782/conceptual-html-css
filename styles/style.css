@@ -33,6 +33,8 @@ position: relative;
     text-align: center;
     padding-top: 15px;
     font-size:larger;
+   
+    
 }
 p{
     text-align: center;
@@ -47,3 +49,31 @@ hr{
     margin-top:10px;
 
 }
+.pic{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    background: linear-gradient(plum, white,pink,khaki);
+}
+/* .img{
+    width: 300px;
+    height:30%; 
+    position: relative;
+    left: 200px;
+}  */
+.pic-section{
+    display: flex;
+    /* flex-direction: row-reverse; */
+gap: 20px;
+/* padding: 8px 50px; */
+justify-content: center;
+padding-top: 8px;
+}
+.pic-section div{
+    width:300px;
+}
+.pic-section img{
+width: 100%;
+height: 90%;
+}
+
