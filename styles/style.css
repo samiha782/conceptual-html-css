@@ -11,6 +11,9 @@ background-size: cover;
 background-position:bottom center;
 height:80vh;
 position: relative;
+/* clip-path: polygon(29% 39%, 2% 3%, 44% 39%, 66% 39%, 97% 3%, 81% 39%, 81% 63%, 97% 97%, 66% 63%, 47% 63%, 3% 97%, 30% 62%); */
+clip-path: polygon(50% 0%, 100% 0, 100% 78%, 50% 100%, 0 79%, 0 0);
+
 }
 .hero h1{
     color: rgba(242, 246, 249);
@@ -21,11 +24,13 @@ position: relative;
     text-align:center;
     /* padding-top:20%; */   
     padding-left: 5px;
+    
+    
 }
 #head{
     border: 4px groove rgb(191, 86, 103);
     position: absolute;
-    top: 170px;
+    top: 130px;
     left:250px;
 }
 .article h2{
