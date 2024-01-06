@@ -1,3 +1,40 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hero{
+background-image: url('../images/mh.jpg');
+background-size: cover;
+background-position:bottom center;
+height:80vh;
+}
+.hero h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:cursive;
+    /* letter-spacing:20px ; */
+    text-align: center;
+    padding-top: 5px;
+}
+.article h2{
+    font-family: 'Lemon', serif;
+    text-align: center;
+    padding-top: 15px;
+    font-size:larger;
+}
+p{
+    text-align: center;
+    padding: 8px;
+}
+hr{
+    height: 3px;
+    background-color: plum;
+    border-radius: 5px;
+    width: 50%;
+    margin-left:25%;
+    margin-top:10px;
+
 }
